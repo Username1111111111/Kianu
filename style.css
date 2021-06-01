@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+#img-div {
+	margin: 0 auto;
+	padding: 0;
+	width: 583px;
+	border-radius: 2px;
+}
+
+#image {
+	display: block;
+	width: 100%;
+  max-width: 100%;
+  height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px dashed grey;
+  display: block;
+}
+
+#tribute-info {
+	 align: center;
+}
+
+#tribute-link {
+	align: center;
+}
+
+table {
+	display: block;
+ 	margin: auto;
+ 	float: left;
+}
+
+.table-block {
+	display: block;
+	width: 583px;
+	height: 772px;
+	margin: auto;
+	border-radius: 2px;
+	border: 1px dashed grey;
+	background-color: lightgrey;
+}
+
+td {
+	text-align: rigt;
+	font-style: italic;
+}
+
+a {
+	 text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive, sans-serif;
+	color: yellow;
+	max-width: 583px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p, figcaption {
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Libre Barcode 128 Text', sans-serif;
+	font-size: 40px;
+}
+
+figcaption {
+	padding-top: 10px;
+}
+
+section#tribute-info > p {
+	font-family:  'Press Start 2P', cursive, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: yellow;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media all and (max-width: 680px) { 
+	#image {
+		max-width: 100%;
+	}
+	#img-div {
+		max-width: 100%;
+	}
+	
+}
+
+@media all and (max-width: 583px) { 
+	#image {
+		max-width: 100%;
+	}
+	.table-block {
+		height: calc(772px * 2);
+		width: 310px;
+	}
+	.table-block > table:nth-child(1) {
+		width: 310px;
+	}
+	table {
+		float: none;
+	}
+	figcaption {
+		max-width: 310px;
+	}
+}
