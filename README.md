@@ -1,6 +1,6 @@
 # Kianu <img src="https://img.shields.io/badge/Status-Complete-green" style="vertical-align: middle;">
 > Tribute landing page dedicated to Kianu
-> [Live demo here](https://username1111111111.github.io/Kianu/)
+> <p><a href="https://username1111111111.github.io/Kianu/">Live demo here</a></p>
 > <p>Or 👇:</p>
 <a href="https://username1111111111.github.io/Kianu/">![QR](./_resourses/kianu.png)
 </a>
