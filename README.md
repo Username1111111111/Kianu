@@ -8,6 +8,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Features](#features)
 * [Screenshots](#screenshots)
 * [Usage](#usage)
 * [Contact](#contact)
